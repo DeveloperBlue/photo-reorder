@@ -1,0 +1,18 @@
+{
+  "name": "photo-reorder",
+  "version": "1.0.0",
+  "description": "Electron application that allows a user to drag and sort photos in a directory, and then saw the newly ordered files to a subdirectory. Supports multi-drag.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/DeveloperBlue/photo-reorder",
+  "keywords": [],
+  "author": "Michael Rooplall",
+  "devDependencies": {
+    "electron": "^5.0.8"
+  },
+  "dependencies": {
+    "mousetrap": "^1.6.3"
+  }
+}

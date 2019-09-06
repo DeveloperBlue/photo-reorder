@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Photo Organizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Custom-Toggle.css">
+    <link rel="stylesheet" href="assets/css/Silmeria-Directory-Input.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container" style="margin-bottom: 40px;margin-top: 40px;">
+        <div class="directory-input"><input type="text" id="cd-input" placeholder="C://"><button type="button" id="cd">Select Directory</button></div>
+        <div class="photo-viewer"><img src="assets/img/82758607_180.jpg"></div>
+        <div><img class="preview-image"></div>
+        <div class="custom-control custom-switch"><input type="checkbox" id="create-new-directory" class="custom-control-input" checked=""><label class="custom-control-label noselect" for="switch0">Save reorganized photos in new directory</label></div><button class="btn btn-primary btn-block"
+            id="generate" type="button">Save Reordered Files</button>
+<!-- Insert this line above script imports  -->
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <!-- normal script imports etc  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Insert this line after script imports -->
+    <script>if (window.module) module = window.module;</script>
+
+    <!-- https://stackoverflow.com/questions/32621988/electron-jquery-is-not-defined --></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/Sortable.min.js"></script>
+</body>
+
+</html>

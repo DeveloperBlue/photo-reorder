@@ -1,0 +1,30 @@
+.directory-input {
+  position: relative;
+  height: 40px;
+}
+
+.directory-input > input {
+  width: 100%;
+  padding-left: 10px;
+}
+
+.directory-input > button, .directory-input > input {
+  display: inline-block;
+  height: 100%;
+  font-size: 14px;
+}
+
+.directory-input > button {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+  padding: 0px 10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.directory-input > button:hover {
+  background-color: #0069d9;
+}
+
